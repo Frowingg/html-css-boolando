@@ -3,3 +3,29 @@
     margin: 0;
     box-sizing: border-box;
 }
+header{
+    background-color: #ff6900;
+}
+.container{
+    width: 70%;
+    background-color: pink;
+    margin: 0 auto;
+    display: flex;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li{
+    margin-right: 10px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+.logo{
+    border: 1px solid red;
+}
+.logo img{
+    width: 100px;
+}
