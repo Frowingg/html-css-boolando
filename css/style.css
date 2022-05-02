@@ -3,14 +3,31 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* HEADER */
 header{
     background-color: #ff6900;
+    display: flex;
+    height: 50px;
 }
 .container{
     width: 70%;
-    background-color: pink;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container div{
+    width: 20%;
+}
+.link{
+    text-align: left;
+}
+.logo{
+    text-align: center;
+}
+.icon{
+    text-align: right;
+    color: white;
 }
 ul{
     list-style-type: none;
@@ -23,9 +40,24 @@ li a{
     color: white;
     text-decoration: none;
 }
-.logo{
-    border: 1px solid red;
-}
 .logo img{
     width: 100px;
+}
+/* MAIN */
+.m_container{
+    width: 70%;
+    background-color: pink;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    width: calc(100% / 3 - 7px);
+    background-color: blueviolet;
+    height: 200px;
+    border: 1px solid red;
+    margin-bottom: 30px;
+}
+#center_col{
+    margin: 0 10px;
 }
