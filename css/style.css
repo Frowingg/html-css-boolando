@@ -46,18 +46,36 @@ li a{
 /* MAIN */
 .m_container{
     width: 70%;
-    background-color: pink;
     margin: 40px auto;
     display: flex;
     flex-wrap: wrap;
 }
 .col{
     width: calc(100% / 3 - 7px);
-    background-color: blueviolet;
-    height: 200px;
-    border: 1px solid red;
     margin-bottom: 30px;
+    position: relative;
 }
 #center_col{
     margin: 0 10px;
+}
+.col img{
+    width: 100%;
+}
+.new-price{
+    color: red;
+}
+.boxes{
+    position: absolute;
+    bottom: 90px;
+    left: 0;
+}
+.box{
+    padding: 5px 8px;
+    color: white;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
 }
