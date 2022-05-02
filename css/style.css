@@ -79,6 +79,15 @@ li a{
 .green{
     background-color: green;
 }
+.hidden{
+    display: none;
+}
+.card:hover .hidden{
+    display: inline-block;
+}
+.card:hover .show{
+    display: none;
+}
 /* FOOTER */
 footer{
     height: 100px;
