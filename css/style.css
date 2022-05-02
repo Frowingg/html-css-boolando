@@ -79,3 +79,36 @@ li a{
 .green{
     background-color: green;
 }
+/* FOOTER */
+footer{
+    height: 100px;
+    background-color: #1a1a1a;
+}
+.f_container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 30px;
+}
+.info{
+    width: 50%;
+    height: 100%;
+    text-align: left;
+    color: white;
+    padding: 20px;
+}
+.info a{
+    color: white;
+    text-decoration: none;    
+    font-size: 12px;
+}
+.icon2{
+    width: 50%;
+    height: 100%;
+    text-align: right;
+    color: white;
+    padding: 20px;
+}
+#footer-icon-text{
+    font-size: 12px;
+}
