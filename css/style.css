@@ -69,6 +69,9 @@ li a{
     bottom: 90px;
     left: 0;
 }
+#center_col .boxes{
+    bottom: 120px
+}
 .box{
     padding: 5px 8px;
     color: white;
