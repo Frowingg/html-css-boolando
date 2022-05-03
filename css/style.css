@@ -3,11 +3,22 @@
     margin: 0;
     box-sizing: border-box;
 }
+/* COMMON */
+a{
+    color: white;
+    text-decoration: none;
+}
+img{
+    width: 100px;
+}
 /* HEADER */
 header{
     background-color: #ff6900;
     display: flex;
     height: 50px;
+    width:100%;
+    position: fixed;
+    z-index: 1;
 }
 .container{
     width: 70%;
@@ -36,17 +47,13 @@ ul{
 li{
     margin-right: 10px;
 }
-li a{
-    color: white;
-    text-decoration: none;
-}
-.logo img{
-    width: 100px;
-}
 /* MAIN */
+main{
+    padding-top: 100px;
+}
 .m_container{
     width: 70%;
-    margin: 40px auto;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
@@ -100,7 +107,7 @@ li a{
     padding: 5px 10px;
     margin-top: 10px;
 }
-.card:hover .heart{
+.fav:hover .heart{
     color: red;
 }
 /* FOOTER */
@@ -119,7 +126,7 @@ footer{
     height: 100%;
     text-align: left;
     color: white;
-    padding: 20px;
+    padding: 20px 20px 20px 0;
 }
 .info a{
     color: white;
@@ -131,7 +138,8 @@ footer{
     height: 100%;
     text-align: right;
     color: white;
-    padding: 20px;
+    padding: 20px 0 20px 20px
+
 }
 #footer-icon-text{
     font-size: 12px;
